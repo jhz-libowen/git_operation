@@ -15,6 +15,7 @@
 		2355B58B2093284F005662EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355B58A2093284F005662EB /* main.m */; };
 		2355B5952093284F005662EB /* git_operationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355B5942093284F005662EB /* git_operationTests.m */; };
 		2355B5A020932850005662EB /* git_operationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355B59F20932850005662EB /* git_operationUITests.m */; };
+		23762FEF20DD1F6C009EBAC9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 23762FEE20DD1F6C009EBAC9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2355B59B20932850005662EB /* git_operationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_operationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2355B59F20932850005662EB /* git_operationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = git_operationUITests.m; sourceTree = "<group>"; };
 		2355B5A120932850005662EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23762FED20DD1F6C009EBAC9 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		23762FEE20DD1F6C009EBAC9 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				2355B57C2093284A005662EB /* AppDelegate.m */,
 				2355B57E2093284A005662EB /* ViewController.h */,
 				2355B57F2093284A005662EB /* ViewController.m */,
+				23762FED20DD1F6C009EBAC9 /* Person.h */,
+				23762FEE20DD1F6C009EBAC9 /* Person.m */,
 				2355B5812093284A005662EB /* Main.storyboard */,
 				2355B5842093284F005662EB /* Assets.xcassets */,
 				2355B5862093284F005662EB /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				2355B5802093284A005662EB /* ViewController.m in Sources */,
 				2355B58B2093284F005662EB /* main.m in Sources */,
+				23762FEF20DD1F6C009EBAC9 /* Person.m in Sources */,
 				2355B57D2093284A005662EB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

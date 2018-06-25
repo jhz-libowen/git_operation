@@ -7,6 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
+
+#define M 10
+#undef M
+#define M 20
 
 @interface ViewController ()
 
@@ -17,8 +22,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-//asdfasdf
-
+//    Person *person = [[Person alloc] init];
+//    NSArray *arr = @[person];
+//    NSLog(@"%@",arr);
+    NSLog(@"%d",M);
+ 
 }
 
 
